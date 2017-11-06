@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE08DDAC1F9794E000BECD9D /* Ball.m in Sources */ = {isa = PBXBuildFile; fileRef = DE08DDAB1F9794E000BECD9D /* Ball.m */; };
 		DEB29B811F97237F00250ED3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB29B801F97237F00250ED3 /* Default.png */; };
 		DEB29B831F97237F00250ED3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB29B821F97237F00250ED3 /* Default@2x.png */; };
 		DEB29B851F97237F00250ED3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB29B841F97237F00250ED3 /* Default-568h@2x.png */; };
@@ -203,11 +204,34 @@
 		DEB29E2E1F97238100250ED3 /* LICENSE_Chipmunk.txt in Resources */ = {isa = PBXBuildFile; fileRef = DEB29E2D1F97238100250ED3 /* LICENSE_Chipmunk.txt */; };
 		DEB29E321F97238100250ED3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB29E311F97238100250ED3 /* main.m */; };
 		DEB29E361F97238100250ED3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB29E351F97238100250ED3 /* AppDelegate.m */; };
-		DEB29E391F97238100250ED3 /* HelloWorldScene.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB29E381F97238100250ED3 /* HelloWorldScene.m */; };
 		DEB29E3B1F97238100250ED3 /* white_square.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB29E3A1F97238100250ED3 /* white_square.png */; };
+		DEB2A11A1F972D4700250ED3 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB2A1191F972D4700250ED3 /* Helper.m */; };
+		DEB2A11D1F973C1200250ED3 /* PinballTable.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB2A11C1F973C1200250ED3 /* PinballTable.m */; };
+		DEB2A1201F973E4B00250ED3 /* TableSetup.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB2A11F1F973E4B00250ED3 /* TableSetup.m */; };
+		DEB2A1261F97609A00250ED3 /* BodyNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB2A1251F97609A00250ED3 /* BodyNode.m */; };
+		DEB914381F98734200B03553 /* Bumper.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB914371F98734200B03553 /* Bumper.m */; };
+		DEB9143B1F98785C00B03553 /* Flipper.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9143A1F98785C00B03553 /* Flipper.m */; };
+		DEB914431F9880A900B03553 /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB9143C1F98809600B03553 /* ball.png */; };
+		DEB914441F9880A900B03553 /* bumper.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB914401F98809700B03553 /* bumper.png */; };
+		DEB914451F9880A900B03553 /* flipper-left.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB914421F98809700B03553 /* flipper-left.png */; };
+		DEB914461F9880A900B03553 /* flipper-right.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB9143E1F98809700B03553 /* flipper-right.png */; };
+		DEB914471F9880A900B03553 /* plunger.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB914411F98809700B03553 /* plunger.png */; };
+		DEB914481F9880A900B03553 /* tablebottom.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB9143D1F98809700B03553 /* tablebottom.png */; };
+		DEB914491F9880A900B03553 /* tabletop.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB9143F1F98809700B03553 /* tabletop.png */; };
+		DEB9144C1F98814800B03553 /* table.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEB9144A1F98813C00B03553 /* table.plist */; };
+		DEB9144D1F98814800B03553 /* table.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB9144B1F98813D00B03553 /* table.png */; };
+		DEB914501F9898F500B03553 /* Plunger.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB9144F1F9898F500B03553 /* Plunger.m */; };
+		DEB914551F98D21B00B03553 /* table-empty.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB914511F98D20A00B03553 /* table-empty.png */; };
+		DEB914561F98D21B00B03553 /* table-empty1.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB914531F98D20A00B03553 /* table-empty1.png */; };
+		DEB914571F98D21B00B03553 /* table1.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEB914541F98D20A00B03553 /* table1.plist */; };
+		DEB914581F98D21B00B03553 /* table1.png in Resources */ = {isa = PBXBuildFile; fileRef = DEB914521F98D20A00B03553 /* table1.png */; };
+		DEF332DC1FACA00900F91467 /* GameStartLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF332DB1FACA00900F91467 /* GameStartLayer.m */; };
+		DEF332DF1FACA71F00F91467 /* GameOverLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF332DE1FACA71F00F91467 /* GameOverLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE08DDAA1F9794E000BECD9D /* Ball.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Ball.h; path = Classes/Ball.h; sourceTree = "<group>"; };
+		DE08DDAB1F9794E000BECD9D /* Ball.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Ball.m; path = Classes/Ball.m; sourceTree = "<group>"; };
 		DEB29B791F97237F00250ED3 /* PhysicsBox2d.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhysicsBox2d.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB29B7D1F97237F00250ED3 /* libObjectiveChipmunk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libObjectiveChipmunk.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEB29B801F97237F00250ED3 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Resources/Default.png; sourceTree = "<group>"; };
@@ -661,9 +685,38 @@
 		DEB29E311F97238100250ED3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = "Supporting Files/main.m"; sourceTree = "<group>"; };
 		DEB29E341F97238100250ED3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Classes/AppDelegate.h; sourceTree = "<group>"; };
 		DEB29E351F97238100250ED3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Classes/AppDelegate.m; sourceTree = "<group>"; };
-		DEB29E371F97238100250ED3 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
-		DEB29E381F97238100250ED3 /* HelloWorldScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HelloWorldScene.m; path = Classes/HelloWorldScene.m; sourceTree = "<group>"; };
 		DEB29E3A1F97238100250ED3 /* white_square.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = white_square.png; path = Resources/white_square.png; sourceTree = "<group>"; };
+		DEB2A1181F972D4700250ED3 /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Helper.h; path = Classes/Helper.h; sourceTree = "<group>"; };
+		DEB2A1191F972D4700250ED3 /* Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Helper.m; path = Classes/Helper.m; sourceTree = "<group>"; };
+		DEB2A11B1F973C1200250ED3 /* PinballTable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PinballTable.h; path = Classes/PinballTable.h; sourceTree = "<group>"; };
+		DEB2A11C1F973C1200250ED3 /* PinballTable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = PinballTable.m; path = Classes/PinballTable.m; sourceTree = "<group>"; };
+		DEB2A11E1F973E4B00250ED3 /* TableSetup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TableSetup.h; path = Classes/TableSetup.h; sourceTree = "<group>"; };
+		DEB2A11F1F973E4B00250ED3 /* TableSetup.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = TableSetup.m; path = Classes/TableSetup.m; sourceTree = "<group>"; };
+		DEB2A1241F97609A00250ED3 /* BodyNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BodyNode.h; path = Classes/BodyNode.h; sourceTree = "<group>"; };
+		DEB2A1251F97609A00250ED3 /* BodyNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BodyNode.m; path = Classes/BodyNode.m; sourceTree = "<group>"; };
+		DEB914361F98734200B03553 /* Bumper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Bumper.h; path = Classes/Bumper.h; sourceTree = "<group>"; };
+		DEB914371F98734200B03553 /* Bumper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Bumper.m; path = Classes/Bumper.m; sourceTree = "<group>"; };
+		DEB914391F98785C00B03553 /* Flipper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Flipper.h; path = Classes/Flipper.h; sourceTree = "<group>"; };
+		DEB9143A1F98785C00B03553 /* Flipper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Flipper.m; path = Classes/Flipper.m; sourceTree = "<group>"; };
+		DEB9143C1F98809600B03553 /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ball.png; path = Resources/ball.png; sourceTree = "<group>"; };
+		DEB9143D1F98809700B03553 /* tablebottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tablebottom.png; path = Resources/tablebottom.png; sourceTree = "<group>"; };
+		DEB9143E1F98809700B03553 /* flipper-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "flipper-right.png"; path = "Resources/flipper-right.png"; sourceTree = "<group>"; };
+		DEB9143F1F98809700B03553 /* tabletop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tabletop.png; path = Resources/tabletop.png; sourceTree = "<group>"; };
+		DEB914401F98809700B03553 /* bumper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bumper.png; path = Resources/bumper.png; sourceTree = "<group>"; };
+		DEB914411F98809700B03553 /* plunger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = plunger.png; path = Resources/plunger.png; sourceTree = "<group>"; };
+		DEB914421F98809700B03553 /* flipper-left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "flipper-left.png"; path = "Resources/flipper-left.png"; sourceTree = "<group>"; };
+		DEB9144A1F98813C00B03553 /* table.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = table.plist; path = Resources/table.plist; sourceTree = "<group>"; };
+		DEB9144B1F98813D00B03553 /* table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = table.png; path = Resources/table.png; sourceTree = "<group>"; };
+		DEB9144E1F9898F500B03553 /* Plunger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Plunger.h; path = Classes/Plunger.h; sourceTree = "<group>"; };
+		DEB9144F1F9898F500B03553 /* Plunger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Plunger.m; path = Classes/Plunger.m; sourceTree = "<group>"; };
+		DEB914511F98D20A00B03553 /* table-empty.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "table-empty.png"; path = "Resources/table-empty.png"; sourceTree = "<group>"; };
+		DEB914521F98D20A00B03553 /* table1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = table1.png; path = Resources/table1.png; sourceTree = "<group>"; };
+		DEB914531F98D20A00B03553 /* table-empty1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "table-empty1.png"; path = "Resources/table-empty1.png"; sourceTree = "<group>"; };
+		DEB914541F98D20A00B03553 /* table1.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = table1.plist; path = Resources/table1.plist; sourceTree = "<group>"; };
+		DEF332DA1FACA00900F91467 /* GameStartLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameStartLayer.h; path = Classes/GameStartLayer.h; sourceTree = "<group>"; };
+		DEF332DB1FACA00900F91467 /* GameStartLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GameStartLayer.m; path = Classes/GameStartLayer.m; sourceTree = "<group>"; };
+		DEF332DD1FACA71F00F91467 /* GameOverLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GameOverLayer.h; path = Classes/GameOverLayer.h; sourceTree = "<group>"; };
+		DEF332DE1FACA71F00F91467 /* GameOverLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = GameOverLayer.m; path = Classes/GameOverLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -718,6 +771,19 @@
 				DEB29BA41F97237F00250ED3 /* iTunesArtwork */,
 				DEB29BA61F97237F00250ED3 /* iTunesArtwork@2x */,
 				DEB29E3A1F97238100250ED3 /* white_square.png */,
+				DEB9143C1F98809600B03553 /* ball.png */,
+				DEB914401F98809700B03553 /* bumper.png */,
+				DEB914421F98809700B03553 /* flipper-left.png */,
+				DEB9143E1F98809700B03553 /* flipper-right.png */,
+				DEB914411F98809700B03553 /* plunger.png */,
+				DEB9143D1F98809700B03553 /* tablebottom.png */,
+				DEB9143F1F98809700B03553 /* tabletop.png */,
+				DEB9144A1F98813C00B03553 /* table.plist */,
+				DEB9144B1F98813D00B03553 /* table.png */,
+				DEB914511F98D20A00B03553 /* table-empty.png */,
+				DEB914531F98D20A00B03553 /* table-empty1.png */,
+				DEB914541F98D20A00B03553 /* table1.plist */,
+				DEB914521F98D20A00B03553 /* table1.png */,
 				DEB29B881F97237F00250ED3 /* Icons */,
 			);
 			name = Resources;
@@ -1542,8 +1608,26 @@
 			children = (
 				DEB29E341F97238100250ED3 /* AppDelegate.h */,
 				DEB29E351F97238100250ED3 /* AppDelegate.m */,
-				DEB29E371F97238100250ED3 /* HelloWorldScene.h */,
-				DEB29E381F97238100250ED3 /* HelloWorldScene.m */,
+				DEF332DA1FACA00900F91467 /* GameStartLayer.h */,
+				DEF332DB1FACA00900F91467 /* GameStartLayer.m */,
+				DEF332DD1FACA71F00F91467 /* GameOverLayer.h */,
+				DEF332DE1FACA71F00F91467 /* GameOverLayer.m */,
+				DEB2A11B1F973C1200250ED3 /* PinballTable.h */,
+				DEB2A11C1F973C1200250ED3 /* PinballTable.m */,
+				DEB2A11E1F973E4B00250ED3 /* TableSetup.h */,
+				DEB2A11F1F973E4B00250ED3 /* TableSetup.m */,
+				DEB2A1241F97609A00250ED3 /* BodyNode.h */,
+				DEB2A1251F97609A00250ED3 /* BodyNode.m */,
+				DE08DDAA1F9794E000BECD9D /* Ball.h */,
+				DE08DDAB1F9794E000BECD9D /* Ball.m */,
+				DEB914361F98734200B03553 /* Bumper.h */,
+				DEB914371F98734200B03553 /* Bumper.m */,
+				DEB914391F98785C00B03553 /* Flipper.h */,
+				DEB9143A1F98785C00B03553 /* Flipper.m */,
+				DEB9144E1F9898F500B03553 /* Plunger.h */,
+				DEB9144F1F9898F500B03553 /* Plunger.m */,
+				DEB2A1181F972D4700250ED3 /* Helper.h */,
+				DEB2A1191F972D4700250ED3 /* Helper.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -1624,23 +1708,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEB29B831F97237F00250ED3 /* Default@2x.png in Resources */,
+				DEB914431F9880A900B03553 /* ball.png in Resources */,
+				DEB914561F98D21B00B03553 /* table-empty1.png in Resources */,
+				DEB914471F9880A900B03553 /* plunger.png in Resources */,
 				DEB29E2E1F97238100250ED3 /* LICENSE_Chipmunk.txt in Resources */,
+				DEB914581F98D21B00B03553 /* table1.png in Resources */,
 				DEB29B961F97237F00250ED3 /* Icon-120.png in Resources */,
 				DEB29B8C1F97237F00250ED3 /* Icon@2x.png in Resources */,
 				DEB29B9E1F97237F00250ED3 /* Icon-Small@2x.png in Resources */,
+				DEB914481F9880A900B03553 /* tablebottom.png in Resources */,
 				DEB29B901F97237F00250ED3 /* Icon-72@2x.png in Resources */,
 				DEB29B811F97237F00250ED3 /* Default.png in Resources */,
+				DEB914441F9880A900B03553 /* bumper.png in Resources */,
+				DEB9144D1F98814800B03553 /* table.png in Resources */,
+				DEB914551F98D21B00B03553 /* table-empty.png in Resources */,
 				DEB29B8A1F97237F00250ED3 /* Icon.png in Resources */,
 				DEB29B981F97237F00250ED3 /* Icon-iPad-Spotlight-iOS7@2x.png in Resources */,
+				DEB9144C1F98814800B03553 /* table.plist in Resources */,
 				DEB29B871F97237F00250ED3 /* Default-Landscape~ipad.png in Resources */,
 				DEB29B9C1F97237F00250ED3 /* Icon-Small.png in Resources */,
+				DEB914571F98D21B00B03553 /* table1.plist in Resources */,
+				DEB914461F9880A900B03553 /* flipper-right.png in Resources */,
 				DEB29B9A1F97237F00250ED3 /* Icon-Small-50.png in Resources */,
+				DEB914491F9880A900B03553 /* tabletop.png in Resources */,
 				DEB29E3B1F97238100250ED3 /* white_square.png in Resources */,
 				DEB29B8E1F97237F00250ED3 /* Icon-72.png in Resources */,
 				DEB29C891F97238000250ED3 /* LICENSE_cocos2d.txt in Resources */,
 				DEB29C8C1F97238000250ED3 /* CCEffectRenderer.h in Resources */,
 				DEB29B851F97237F00250ED3 /* Default-568h@2x.png in Resources */,
 				DEB29BA51F97237F00250ED3 /* iTunesArtwork in Resources */,
+				DEB914451F9880A900B03553 /* flipper-left.png in Resources */,
 				DEB29D631F97238000250ED3 /* LICENSE_CCBReader.txt in Resources */,
 				DEB29BA01F97237F00250ED3 /* Icon-Spotlight-iOS7.png in Resources */,
 				DEB29B941F97237F00250ED3 /* Icon-76@2x.png in Resources */,
@@ -1657,6 +1754,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF332DC1FACA00900F91467 /* GameStartLayer.m in Sources */,
 				DEB29CF81F97238000250ED3 /* CCPlatformTextFieldIOS.m in Sources */,
 				DEB29BF81F97238000250ED3 /* CCConfiguration.m in Sources */,
 				DEB29CEC1F97238000250ED3 /* CCTableView.m in Sources */,
@@ -1683,11 +1781,11 @@
 				DEB29CD01F97238000250ED3 /* CCEffectNode.m in Sources */,
 				DEB29CCD1F97238000250ED3 /* CCEffectPixellate.m in Sources */,
 				DEB29BF41F97238000250ED3 /* CCClippingNode.m in Sources */,
-				DEB29E391F97238100250ED3 /* HelloWorldScene.m in Sources */,
 				DEB29D4D1F97238000250ED3 /* CCAnimationManager.m in Sources */,
 				DEB29CD31F97238000250ED3 /* CCEffectStack.m in Sources */,
 				DEB29C871F97238000250ED3 /* cocos2d.m in Sources */,
 				DEB29D8E1F97238000250ED3 /* ALContext.m in Sources */,
+				DEB2A1201F973E4B00250ED3 /* TableSetup.m in Sources */,
 				DEB29C7A1F97238000250ED3 /* CCTiledMapLayer.m in Sources */,
 				DEB29BB41F97237F00250ED3 /* CCRenderDispatch.m in Sources */,
 				DEB29CF41F97238000250ED3 /* CCPlatformTextField.m in Sources */,
@@ -1697,10 +1795,13 @@
 				DEB29D271F97238000250ED3 /* CCFileUtils.m in Sources */,
 				DEB29D211F97238000250ED3 /* CCRendererGLSupport.m in Sources */,
 				DEB29BB81F97237F00250ED3 /* CCRendererBasicTypes.m in Sources */,
+				DEB2A11A1F972D4700250ED3 /* Helper.m in Sources */,
 				DEB29C3C1F97238000250ED3 /* CCPhysicsJoint.m in Sources */,
 				DEB29C4E1F97238000250ED3 /* CCResponder.m in Sources */,
 				DEB29C211F97238000250ED3 /* CCNode+Debug.m in Sources */,
+				DE08DDAC1F9794E000BECD9D /* Ball.m in Sources */,
 				DEB29C191F97238000250ED3 /* CCMotionStreak.m in Sources */,
+				DEF332DF1FACA71F00F91467 /* GameOverLayer.m in Sources */,
 				DEB29C731F97238000250ED3 /* CCTexturePVR.m in Sources */,
 				DEB29D7F1F97238000250ED3 /* OALSimpleAudio.m in Sources */,
 				DEB29CDF1F97238000250ED3 /* CCControl.m in Sources */,
@@ -1721,6 +1822,7 @@
 				DEB29CE31F97238000250ED3 /* CCControlTextureFactory.m in Sources */,
 				DEB29BDC1F97237F00250ED3 /* CCActionInstant.m in Sources */,
 				DEB29C341F97238000250ED3 /* CCParticleSystemBase.m in Sources */,
+				DEB914501F9898F500B03553 /* Plunger.m in Sources */,
 				DEB29D301F97238000250ED3 /* ccUtils.c in Sources */,
 				DEB29CC11F97238000250ED3 /* CCEffectBrightness.m in Sources */,
 				DEB29BDF1F97237F00250ED3 /* CCActionInterval.m in Sources */,
@@ -1733,6 +1835,9 @@
 				DEB29DBA1F97238000250ED3 /* OALAudioFile.m in Sources */,
 				DEB29D591F97238000250ED3 /* CCBsequence.m in Sources */,
 				DEB29C1E1F97238000250ED3 /* CCNode.m in Sources */,
+				DEB9143B1F98785C00B03553 /* Flipper.m in Sources */,
+				DEB2A11D1F973C1200250ED3 /* PinballTable.m in Sources */,
+				DEB914381F98734200B03553 /* Bumper.m in Sources */,
 				DEB29BC71F97237F00250ED3 /* CCRenderer.m in Sources */,
 				DEB29CC71F97238000250ED3 /* CCEffectColor.m in Sources */,
 				DEB29C251F97238000250ED3 /* CCParallaxNode.m in Sources */,
@@ -1753,6 +1858,7 @@
 				DEB29C0B1F97238000250ED3 /* CCLabelTTF.m in Sources */,
 				DEB29CEF1F97238000250ED3 /* CCTextField.m in Sources */,
 				DEB29C291F97238000250ED3 /* CCParticleBatchNode.m in Sources */,
+				DEB2A1261F97609A00250ED3 /* BodyNode.m in Sources */,
 				DEB29C651F97238000250ED3 /* CCSpriteFrame.m in Sources */,
 				DEB29D851F97238000250ED3 /* ALBuffer.m in Sources */,
 				DEB29BFC1F97238000250ED3 /* CCDirector.m in Sources */,
@@ -1892,6 +1998,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = UPW7LNWU79;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhysicsBox2d/Supporting Files/Prefix.pch";
@@ -1900,6 +2007,7 @@
 					"\"$(SRCROOT)/$(PROJECT_NAME)/Libraries/Chipmunk/objectivec/include\"",
 				);
 				INFOPLIST_FILE = PhysicsBox2d/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PhysicsBox2d",
@@ -1922,6 +2030,7 @@
 				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_ENABLE_MODULES = YES;
 				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = UPW7LNWU79;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "PhysicsBox2d/Supporting Files/Prefix.pch";
 				HEADER_SEARCH_PATHS = (
@@ -1929,6 +2038,7 @@
 					"\"$(SRCROOT)/$(PROJECT_NAME)/Libraries/Chipmunk/objectivec/include\"",
 				);
 				INFOPLIST_FILE = PhysicsBox2d/Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/PhysicsBox2d",
@@ -1998,6 +2108,7 @@
 				DEB29E401F97238100250ED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DEB29E411F97238100250ED3 /* Build configuration list for PBXNativeTarget "ObjectiveChipmunk" */ = {
 			isa = XCConfigurationList;
@@ -2006,6 +2117,7 @@
 				DEB29E431F97238100250ED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

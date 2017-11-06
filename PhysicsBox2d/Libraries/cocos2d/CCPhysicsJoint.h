@@ -38,7 +38,7 @@ A CCPhysicsJoint connects two CCPhysicsBody objects together, like a joint betwe
 
 
 /// -----------------------------------------------------------------------
-/// @name Creating Pivot Joints
+/// @name Creating Pivot Joints（环枢关节）
 /// -----------------------------------------------------------------------
 
 /**
@@ -60,7 +60,7 @@ A CCPhysicsJoint connects two CCPhysicsBody objects together, like a joint betwe
                                        anchorA:(CGPoint)anchorA;
 
 /// -----------------------------------------------------------------------
-/// @name Creating Distance Joints
+/// @name Creating Distance Joints（定距关节）
 /// -----------------------------------------------------------------------
 
 /**
@@ -115,7 +115,7 @@ A CCPhysicsJoint connects two CCPhysicsBody objects together, like a joint betwe
                                       maxDistance:(CGFloat)max;
 
 /// -----------------------------------------------------------------------
-/// @name Creating Spring Joints
+/// @name Creating Spring Joints（弹簧关节）
 /// -----------------------------------------------------------------------
 
 /**
@@ -180,7 +180,7 @@ A CCPhysicsJoint connects two CCPhysicsBody objects together, like a joint betwe
 
 
 /// -----------------------------------------------------------------------
-/// @name Creating Motor Joints
+/// @name Creating Motor Joints（马达关节）
 /// -----------------------------------------------------------------------
 
 /**
@@ -204,7 +204,7 @@ A CCPhysicsJoint connects two CCPhysicsBody objects together, like a joint betwe
 
 
 /// -----------------------------------------------------------------------
-/// @name Creating Rotary Limit Joints
+/// @name Creating Rotary Limit Joints（旋转限制关节）
 /// -----------------------------------------------------------------------
 
 /**
@@ -231,7 +231,7 @@ A CCPhysicsJoint connects two CCPhysicsBody objects together, like a joint betwe
 
 
 /// -----------------------------------------------------------------------
-/// @name Creating Ratchet Joints
+/// @name Creating Ratchet Joints（棘齿关节）
 /// -----------------------------------------------------------------------
 
 /**

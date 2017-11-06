@@ -11,7 +11,7 @@
 // -----------------------------------------------------------------
 
 #import "AppDelegate.h"
-#import "HelloWorldScene.h"
+#import "GameStartLayer.h"
 
 // -----------------------------------------------------------------------
 
@@ -46,6 +46,7 @@
     // Show FPS
     // We really want this when developing an app
     [startUpOptions setObject:@(YES) forKey:CCSetupShowDebugStats];
+    [startUpOptions setObject:CCScreenOrientationPortrait forKey:CCSetupScreenOrientation];
     
     // A acouple of other examples
     
@@ -77,7 +78,7 @@
 
 - (CCScene *)startScene
 {
-	return [HelloWorldScene new];
+	return [GameStartLayer scene];
 }
 
 // -----------------------------------------------------------------------
